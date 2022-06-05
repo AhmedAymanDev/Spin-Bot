@@ -2,7 +2,7 @@ const Discord = require("discord.js")
 const client = new Discord.Client({
   intents : 32767
 })
-const schema = require("./schema/spin")
+const schema = require("./spin")
 const express = require("express")
 const app = express()
 client.config = require("./config.json")
